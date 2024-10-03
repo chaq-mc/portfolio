@@ -16,8 +16,8 @@ const Profile = () => {
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
-          <div className="flex justify-center">
-            <img src={profilePic} alt="Chequel McNeil" />
+          <div className="flex justify-center h-screen">
+            <img className="rounded-full h-96" src={profilePic} alt="Chequel McNeil" />
           </div>
         </div>
       </div>
