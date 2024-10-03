@@ -1,3 +1,5 @@
+import profilePic from "../assets/profilePic.png";
+
 const Profile = () => {
   return (
     <div className='border-b border-neutral-900 pb-4 lg:mb-35'>
@@ -11,6 +13,11 @@ const Profile = () => {
             <p className="my-2 max-w-xl py-6 font-light tracking-tighter antialiased">
             I am a results focused software engineer with 7+ years of experience in development, design, analysis, debugging, and implementation of enterprise level solutions. Well versed in a variety of technologies and languages utilized to build modern enterprise applications.
             </p>
+          </div>
+        </div>
+        <div className="w-full lg:w-1/2 lg:p-8">
+          <div className="flex justify-center">
+            <img src={profilePic} alt="Chequel McNeil" />
           </div>
         </div>
       </div>
