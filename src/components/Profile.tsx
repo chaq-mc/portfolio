@@ -1,6 +1,7 @@
-import profilePic from "../assets/profilePic.jpeg";
-
 const Profile = () => {
+
+  const avatarURL = import.meta.env.VITE_PROFILE_AVATAR_URL;
+
   return (
     <div className='border-b border-neutral-900 pb-4 lg:mb-35'>
       <div className='flex flex-wrap'>
@@ -17,11 +18,10 @@ const Profile = () => {
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex justify-center">
-            <img className="rounded-full h-96" src={profilePic} alt="Chequel McNeil" />
+            <img className="rounded-full h-96" src={avatarURL} alt="Chequel McNeil" />
           </div>
         </div>
       </div>
-
     </div>
   )
 }
