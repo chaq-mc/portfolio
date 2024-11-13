@@ -9,7 +9,7 @@ export const Experiences = [
             "Directed a cross-functional team to deliver a successful beta version to the client, coordinating with stakeholders to ensure project milestones and objectives were met.",
             "Focused on implementing scalable and maintainable code that adhered to best practices in modern front-end development, significantly enhancing the application’s user experience and responsiveness."
         ],
-        technologies: ["React", "TypeScript", "Esri", "FastAPI"],
+        technologies: ["React", "TypeScript", "Esri", "FastAPI", "AWS", "Docker"],
     },
     {
         year: "2017 - 2020",
@@ -20,7 +20,6 @@ export const Experiences = [
             "Optimized application performance and ensured compatibility with current technologies, reducing maintenance requirements and improving application scalability.",
             "Collaborated with cross-functional teams, including QA and product management, to ensure successful deployment of new features and adherence to project timelines."
         ],
-        technologies: [""],
+        technologies: ["C#", "JavaScript", "SQL", "TelerikUI"],
     },
-
 ]
