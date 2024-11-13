@@ -18,12 +18,14 @@ function Experience() {
               </h6>
               <ul className="list-disc">
                 {exp.description.map((des, index) => (
-                  <li className="mb-4 text-base text-neutral-300 antialiased">{des}</li>
+                  <li key ={`desc-${index}`} className="mb-4 text-base text-neutral-300 antialiased">{des}</li>
                 ))}
               </ul>
-              {exp.technologies.map((tech, index) => (
-                <span key={index} className="mr-2 mt-4 px-2 py-1 rounded bg-neutral-900 text-sm font-medium text-green-800">{tech}</span>
-              ))}
+              <div className="flex flex-wrap">
+                {exp.technologies.map((tech, index) => (
+                  <span key={`tech-${index}`} className="mr-2 mt-4 px-2 py-1 rounded bg-neutral-900 text-sm font-medium text-green-700">{tech}</span>
+                ))}
+              </div>
             </div>
           </div>
         ))}
