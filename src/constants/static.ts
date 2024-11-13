@@ -23,3 +23,12 @@ export const Experiences = [
         technologies: ["C#", "JavaScript", "SQL", "TelerikUI"],
     },
 ]
+
+export const PROJECTS = [
+    {
+        title: "",
+        image: "",
+        description: "",
+        technologies: []
+    },
+]
