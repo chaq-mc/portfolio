@@ -26,9 +26,21 @@ export const Experiences = [
 
 export const PROJECTS = [
     {
-        title: "",
-        image: "",
-        description: "",
-        technologies: []
+        title: "NASA Power DAV",
+        image: "./powerDAV.png",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+        technologies: ["React", "TypeScript", "Esri", "FastAPI"],
+        hasGit: false,
+        gitLink: "",
+        projLink:"https://power.larc.nasa.gov/data-access-viewer/"
+    },
+    {
+        title: "Portfolio",
+        image: "./portfolio.png",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+        technologies: ["React", "TypeScript", "Tailwind", "Vite", "Vercel"],
+        hasGit: true,
+        gitLink: "https://github.com/chaq-mc/portfolio",
+        projLink:"https://portfolio-ebon-five-45.vercel.app/"
     },
 ]
