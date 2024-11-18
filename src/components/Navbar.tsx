@@ -1,5 +1,6 @@
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { IconContext } from "react-icons";
 
 const Navbar = () => {
   return (
@@ -11,10 +12,14 @@ const Navbar = () => {
     </div>
     <div className="m-8 flex items-center justify-center gap-4 text-2xl">
         <a href="https://www.linkedin.com/in/chequel-mcneil/" target="_blank">
-            <FaLinkedin />
+            <IconContext.Provider value={{ className: "hover:fill-accent" }}>
+                <FaLinkedin  />
+            </IconContext.Provider>
         </a>
         <a href="https://github.com/chaq-mc" target="_blank">
-            <FaGithub />
+            <IconContext.Provider value={{ className: "hover:fill-accent" }}>
+                <FaGithub />
+            </IconContext.Provider>
         </a>
     </div>
    </nav>
