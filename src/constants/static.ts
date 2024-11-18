@@ -29,7 +29,7 @@ export const PROJECTS = [
         title: "NASA Power DAV",
         image: "./powerDAV.png",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        technologies: ["React", "TypeScript", "Esri", "FastAPI"],
+        technologies: ["React", "TypeScript", "Esri", "FastAPI", "AWS", "Docker"],
         hasGit: false,
         gitLink: "",
         projLink:"https://power.larc.nasa.gov/data-access-viewer/"
@@ -41,6 +41,6 @@ export const PROJECTS = [
         technologies: ["React", "TypeScript", "Tailwind", "Vite", "Vercel"],
         hasGit: true,
         gitLink: "https://github.com/chaq-mc/portfolio",
-        projLink:"https://portfolio-ebon-five-45.vercel.app/"
+        projLink:"https://chequelmcneil.dev"
     },
 ]
